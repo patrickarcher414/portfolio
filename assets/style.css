@@ -3,31 +3,80 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    background: var(--main-bg-color);
+    background-color: var(--main-bg-color);
     font-family: 'Alegreya Medium 500', serif;
+    font-size: 100%;
 }
 :root {
     --main-bg-color: #b5c087;
     --main-border-color: #3d4631;
 }
-.hero {
-    
+.hero-image {
+    background-image: url("./images/hero-bg.jpg");
+    height: 300px;
+    width: 100%;
+    border: 3px solid #1111;
+    background-position: center;
+    background-size: cover; 
+    background-size: 100% 100%; 
     display: flex;
-    background-size: cover;
-    background-size: 100% 100%;
-    font-size: 50px;
-}
-.hero h1 {
-    background: var(--main-bg-color);
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.header h2 li {
-    font-family: 'Alegreya', serif;
-    font-style: bold;
+.hero-image img {
+    height: 200px;
+    margin: 30px;
+}
+.hero-text {
     display: flex;
-    align-items: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    background: none;
+}
+.name-text {
+    background: none;
+}
+header {
+    border: 3px solid #1111;
+}
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h2 {
+    margin: 0 10px;
+}
+.links {
+    display: flex;
+    padding: 0 60px;
+}
+.links li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+#about {
+    border: 3px solid #1111;
+}
+#work {
+    border: 3px solid #1111;
+}
+#run-buddy img {
+    height: 150px;
+}
+#work img {
+    height: 100px;
+    margin: 10px 20px;
+}
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @font-face {
@@ -37,4 +86,4 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/alegreya/v26/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGxBU4-6qj.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
