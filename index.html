@@ -4,70 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css"/>
    <title>Portfolio</title>
 </head>
 <body>
-    <div class="hero-image"> 
-        <div class="hero-text">
-            <img src="assets/images/placeholder.png" alt="">
-            <h1 class="name-text">PATRICK ARCHER</h1>
-        </div>
-    </div>
-
     <header>
         <nav>
             <h2>PORTFOLIO</h2>
 
             <ul class="links">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">My Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#work">MY WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
+    <div class="hero-image"> 
+        <div class="hero-text">
+            <img src="assets/images/portrait.JPG" alt="portrait of Patrick Archer">
+            <h1 class="name-text">PATRICK ARCHER</h1>
+        </div>
+    </div>
+
+   
+
     <section id="about">
-        <h3>ABOUT</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto vero praesentium tempore, quia ipsum perspiciatis necessitatibus, corporis vel, eaque incidunt officia illo in. Adipisci, dolorem! Qui alias tenetur culpa? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusamus praesentium quas quia nostrum nulla, voluptates, suscipit deleniti aperiam minima culpa non officiis voluptatibus numquam fugiat! Optio, quibusdam omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias ad assumenda eveniet maxime non laboriosam, quas, culpa officia aut eum impedit a delectus! Minima exercitationem laudantium nisi ratione, corporis delectus?</p>
+        <h3><span>ABOUT</span></h3>
+        <p>I am a student at UW-Extension Full Stack Web Development Bootcamp. I am interested in App Development and Games.</p>
     </section>
 
     <section id="work">
 
-        <h3>WORK</h3>
+        <h3><span>WORK</span></h3>
 
         <div class="work-gallery">
-            <a target="_blank" href="https://patrickarcher414.github.io/run-buddy/" id="run-buddy">
-                <img src="assets/images/run-buddy.JPG" alt="">
-            </a>
-            <div>
-                <a href="_blank" id="coming-soon">
-                    <img src="assets/images/placeholder.png" alt="coming soon">
-                </a>
-                
-                <a href="_blank" id="coming-soon2">
-                    <img src="assets/images/placeholder.png" alt="coming soon">
-                </a>
+            <div class="main-gallery-item">
+                <div class="card">
+                    <a target="_blank" href="https://patrickarcher414.github.io/run-buddy/" id="run-buddy">
+                        <img src="assets/images/run-buddy.JPG" alt="">
+                        <h4>RUN BUDDY</h4>
+                    </a>
+                </div>
             </div>
-            <div>
-                <a href="_blank" id="coming-soon3">
-                    <img src="assets/images/placeholder.png" alt="coming soon">
-                </a>
+            <div class="second-gallery-items">
+                <div class="card">
+                    <a href="_blank" id="coming-soon">
+                        <img src="assets/images/placeholder.png" alt="coming soon">
+                        <h4>COMING SOON</h4>
+                    </a>
+                </div>   
                 
-                <a href="_blank" id="coming-soon4">
-                    <img src="assets/images/placeholder.png" alt="coming soon">
-                </a>
+                <div class="card">
+                    <a href="_blank" id="coming-soon2">
+                        <img src="assets/images/placeholder.png" alt="coming soon">
+                        <h4>COMING SOON</h4>
+                    </a>
+                    
+                </div>
+                
+                <div class="card">
+                    <a href="_blank" id="coming-soon3">
+                        <img src="assets/images/placeholder.png" alt="coming soon">
+                        <h4>COMING SOON</h4>
+                    </a>
+                    
+                </div>
+                
+                <div class="card">
+                    <a href="_blank" id="coming-soon4">
+                        <img src="assets/images/placeholder.png" alt="coming soon">
+                        <h4>COMING SOON</h4>
+                    </a>
+                    
+                </div>
             </div>
         </div>
     </section>
     <section id="contact">
         <h3>CONTACT</h3>
-        <a href="mailto:patrickarcher414@gmail.com">Email</a>
-        <a href="https://github.com/patrickarcher414">Github</a>
-        <a href="https://www.linkedin.com/in/patrick-archer-737027232">LinkedIn</a>
+        <div class="contact-links">
+            <a href="mailto:patrickarcher414@gmail.com">Email</a>
+            <a target="_blank" href="https://github.com/patrickarcher414">Github</a>
+            <a target="_blank" href="https://www.linkedin.com/in/patrick-archer-737027232">LinkedIn</a>
+        </div>
     </section>
 </body>
 </html>
